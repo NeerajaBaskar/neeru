@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class EmployeeDetails {
+public class Employee {
 	
 		String firstName;
 		String lastName;
 		double salary;
-		public EmployeeDetails()
+		public Employee()
 		{
 			firstName="\0";
 			lastName="\0";
@@ -48,8 +48,8 @@ public class EmployeeDetails {
 		{
 			Scanner input=new Scanner(System.in);
 			
-			EmployeeDetails e1=new EmployeeDetails();
-			EmployeeDetails e2=new EmployeeDetails();
+			Employee e1=new Employee();
+			Employee e2=new Employee();
 			System.out.println("\n1st employee:");
 			System.out.print("First name:");
 			String s=input.nextLine();
